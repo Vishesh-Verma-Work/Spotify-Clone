@@ -440,5 +440,86 @@ a {
 }
 
 
+.album {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+
+.sd {
+    margin-left: 1.5rem;
+}
+
+.sfd {
+    margin-left: 1rem;
+}
+
+.m {
+    opacity: 0.7;
+    transition: 0s;
+}
+
+
+.m:hover {
+    opacity: 1;
+}
+
+
+
+.control {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* background-color: #1bd760; */
+}
+
+.ml {
+    opacity: 0.7;
+    margin-left: 1.1rem;
+}
+
+.ml:hover {
+    opacity: 1;
+}
+
+.pic-alb {
+    height: 45px;
+    border-radius: 5px;
+}
+
+.sml {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.hidd {
+    opacity: 0;
+}
+@media (max-width:1250px) {
+    .control {
+        display: none;
+    }
+    .show {
+        opacity: 1;
+        margin-right: 5rem;
+    }
+}
+
+@media (max-width : 920px) {
+    .album {
+        display: none;
+    }
+    .player {
+         width: 80%;
+         margin-right: 5rem;
+    }
+}
 
 
